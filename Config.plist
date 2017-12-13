@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>open-unc-path.png</string>
+			<key>Regular Expression</key>
+                        <string>^\\\\.+\\.{1,255}$</string>
+			<key>Shell Script File</key>
+			<string>open-unc-path.sh</string>
+			<key>Title</key>
+			<string>Open UNC Path</string>
+		</dict>
+	</array>
+	<key>Blocked Apps</key>
+	<array>
+		<string>com.apple.finder</string>
+	</array>
+	<key>Extension Description</key>
+	<string>Open UNC Path in Finder</string>
+	<key>Extension Identifier</key>
+	<string>to.amamo.h.popclip.extension.open-unc-path</string>
+	<key>Extension Name</key>
+	<string>Open UNC Path in Finder</string>
+</dict>
+</plist>
